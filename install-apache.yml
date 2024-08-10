@@ -7,3 +7,8 @@
   - name: Install Apache Server
     apt:
       name: apache2
+      state: latest
+  - name: add  PHP support for Apache
+    apt:
+      name: libapache2-mod-php
+      state: latest
