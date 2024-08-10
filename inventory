@@ -2,5 +2,5 @@
 13.201.91.158 ansible_user=ubuntu
 52.66.202.109 ansible_user=ubuntu
 
-[dbservers
+[dbservers]
 13.201.122.137 ansible_user=ubuntu
